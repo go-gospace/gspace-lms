@@ -19,7 +19,7 @@ export default function DashboardLayout({
           <Image
             src="/gspace-logo.png"
             // src="/logo-blue.png"
-            className="bg-sky-500"
+            className="bg-purple-600"
             alt="logo"
             width={32}
             height={32}
