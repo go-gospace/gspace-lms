@@ -29,10 +29,10 @@ const Navbar = () => {
         </div>
         <Image
           src="/avatar.png"
-          alt=""
+          alt="avatar"
           width={36}
           height={36}
-          className="rounded-full"
+          className="rounded-full cursor-pointer"
         />
       </div>
     </div>
