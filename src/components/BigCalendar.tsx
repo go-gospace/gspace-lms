@@ -1,5 +1,5 @@
 "use client";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
 import { Calendar, momentLocalizer, View, Views } from "react-big-calendar";
 import moment from "moment";

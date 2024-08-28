@@ -1,18 +1,18 @@
 import Announcements from "@/components/Announcements";
-// import BigCalendar from "@/components/BigCalendar";
+import BigCalendar from "@/components/BigCalendar";
 import EventCalendar from "@/components/EventCalendar";
 import dynamic from "next/dynamic";
 
-const BigCalendar = dynamic(() => import("../../../components/BigCalendar"), {
-  ssr: false,
-});
+// const BigCalendar = dynamic(() => import("../../../components/BigCalendar"), {
+//   ssr: false,
+// });
 
 const StudentPage = () => {
   return (
     <div className="p-4 flex gap-4 flex-col xl:flex-row">
       {/* LEFT */}
       <div className="w-full xl:w-2/3">
-        <div className="h-full bg-white p-4 rounded-md">
+        <div className="h-full dark:bg-yellow-400 bg-white p-4 rounded-md">
           <h1 className="text-xl font-semibold">Schedule (4A)</h1>
           <BigCalendar />
         </div>
