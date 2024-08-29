@@ -106,3 +106,8 @@
   color: gray !important;
   margin-bottom: 5px;
 }
+
+.darkModeIcon {
+  width: 18px !important;
+  height: 18px !important;
+}
